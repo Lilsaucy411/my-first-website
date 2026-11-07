@@ -19,6 +19,15 @@ footer, h1 {
   color:orange;
 }
 
+#nav_menu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;        /* ← Change to row for horizontal */
+  gap: 20px;                  /* More space between items looks better horizontally */
+  margin-bottom: 15px;
+  max-width: none;            /* Remove the width limit */
+}
+
 a[href] {
   color: red;
   font-weight: 900;
@@ -28,5 +37,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+
 
 
